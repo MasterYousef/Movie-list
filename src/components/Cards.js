@@ -3,8 +3,6 @@ import { Col } from "react-bootstrap";
 import { Link } from "react-router-dom";
 
 function Cards({ mov }) {
-  console.log(mov);
-
   return (
     <Col sm={3} className="mb-3">
       <Link to={`/Movie/${mov.id}`}>
